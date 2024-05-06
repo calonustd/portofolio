@@ -1,0 +1,211 @@
+$primary-color: #0a0a0a;
+$secondary-color: #656565;
+$text-color: #ffff;
+
+// FONT
+@font-face {
+  font-display: swap;
+  font-family: cltv;
+  font-style: normal;
+  font-weight: 400;
+  src: url(/font/coolvetica.woff2) format("woff2"),
+    url(/font/coolvetica.woff) format("woff");
+}
+
+body {
+  background-color: $primary-color;
+  scroll-behavior: smooth;
+  height: 2000px;
+  font-family: "poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  appearance: none;
+  display: none;
+}
+
+// NAVBAR
+nav {
+  a {
+    text-decoration: none;
+    color: $text-color;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}
+
+// PAGE 1
+.page-1 {
+  mask-image: linear-gradient(rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0));
+  .container {
+    .col-5 {
+      img {
+        width: 39rem;
+        margin-top: -28px;
+        margin-left: -80px;
+      }
+    }
+
+    .text1 {
+      margin-top: 11rem;
+      margin-left: -35px;
+      position: fixed;
+    }
+    .col-7 {
+      color: $text-color;
+      font-size: 7rem;
+      font-family: "cltv";
+      text-align: start;
+      span {
+        color: $secondary-color;
+      }
+    }
+  }
+}
+
+// PAGE 2
+.page-2 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: url(/asset/background.png);
+  background-size: 26rem;
+  background-repeat: no-repeat;
+
+  .container {
+    .col-6 {
+      img {
+        width: 20rem;
+        margin-top: 30px;
+        margin-left: -35px;
+      }
+    }
+
+    .col-6 {
+      margin-right: -75px;
+      h1 {
+        color: $text-color;
+        font-weight: 600;
+        margin-top: 1rem;
+        text-align: start;
+        margin-bottom: 0;
+        span {
+          color: $secondary-color;
+          opacity: 1;
+        }
+      }
+      #hr-1 {
+        height: 10px;
+        color: $text-color;
+        width: 18rem;
+        margin-top: 0;
+      }
+      .text2 {
+        h6 {
+          color: $secondary-color;
+        }
+        #nama {
+          text-align: start;
+          color: $text-color;
+          opacity: 0.1;
+          &:hover {
+            opacity: 1;
+            font-size: 1.4rem;
+          }
+        }
+        #umur {
+          text-align: start;
+          color: $text-color;
+          opacity: 0.1;
+          &:hover {
+            opacity: 1;
+            font-size: 1.4rem;
+          }
+        }
+        #pendidikan {
+          text-align: start;
+          color: $text-color;
+          opacity: 0.1;
+          &:hover {
+            opacity: 1;
+            font-size: 1.4rem;
+          }
+        }
+        #negara {
+          text-align: start;
+          color: $text-color;
+          opacity: 0.1;
+          &:hover {
+            opacity: 1;
+            font-size: 1.4rem;
+          }
+        }
+        #bahasa {
+          text-align: start;
+          color: $text-color;
+          opacity: 0.1;
+          &:hover {
+            opacity: 1;
+            font-size: 1.4rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.page-3 {
+  padding-top: 10rem;
+  .text3 {
+  }
+  h1 {
+    color: $text-color;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: 600;
+    span {
+      color: $secondary-color;
+    }
+  }
+  hr {
+    width: 27rem;
+    margin: auto;
+    color: $text-color;
+  }
+  p {
+    text-align: center;
+    font-size: 1.2rem;
+    width: 470px;
+    color: $text-color;
+    margin: auto;
+    padding-top: 1.5rem;
+  }
+}
+
+.page-4 {
+  padding-top: 8rem;
+  .text4{
+    h1{
+      margin: auto;
+      color: $text-color;
+      font-weight: 600;
+      text-align: center;
+      span{
+        color: $secondary-color;
+      }
+    }
+    hr{
+      color: $text-color;
+      width: 23rem;
+      margin: auto;
+    }
+    p{
+      color: $text-color;
+      width: 390px;
+      text-align: center;
+      margin: auto;
+      padding-top: 0.8rem;
+      font-size: 1.2rem;
+    }
+  }
+}

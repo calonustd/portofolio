@@ -1,0 +1,184 @@
+@font-face {
+  font-display: swap;
+  font-family: cltv;
+  font-style: normal;
+  font-weight: 400;
+  src: url(/font/coolvetica.woff2) format("woff2"), url(/font/coolvetica.woff) format("woff");
+}
+body {
+  background-color: #0a0a0a;
+  scroll-behavior: smooth;
+  height: 2000px;
+  font-family: "poppins", sans-serif;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+          appearance: none;
+  display: none;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.page-1 {
+  -webkit-mask-image: linear-gradient(rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0));
+          mask-image: linear-gradient(rgb(0, 0, 0) 80%, rgba(0, 0, 0, 0));
+}
+.page-1 .container .col-5 img {
+  width: 39rem;
+  margin-top: -28px;
+  margin-left: -80px;
+}
+.page-1 .container .text1 {
+  margin-top: 11rem;
+  margin-left: -35px;
+  position: fixed;
+}
+.page-1 .container .col-7 {
+  color: white;
+  font-size: 7rem;
+  font-family: "cltv";
+  text-align: start;
+}
+.page-1 .container .col-7 span {
+  color: #656565;
+}
+
+.page-2 {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: url(/asset/background.png);
+  background-size: 26rem;
+  background-repeat: no-repeat;
+}
+.page-2 .container .col-6 img {
+  width: 20rem;
+  margin-top: 30px;
+  margin-left: -35px;
+}
+.page-2 .container .col-6 {
+  margin-right: -75px;
+}
+.page-2 .container .col-6 h1 {
+  color: white;
+  font-weight: 600;
+  margin-top: 1rem;
+  text-align: start;
+  margin-bottom: 0;
+}
+.page-2 .container .col-6 h1 span {
+  color: #656565;
+  opacity: 1;
+}
+.page-2 .container .col-6 #hr-1 {
+  height: 10px;
+  color: white;
+  width: 18rem;
+  margin-top: 0;
+}
+.page-2 .container .col-6 .text2 h6 {
+  color: #656565;
+}
+.page-2 .container .col-6 .text2 #nama {
+  text-align: start;
+  color: white;
+  opacity: 0.1;
+}
+.page-2 .container .col-6 .text2 #nama:hover {
+  opacity: 1;
+  font-size: 1.4rem;
+}
+.page-2 .container .col-6 .text2 #umur {
+  text-align: start;
+  color: white;
+  opacity: 0.1;
+}
+.page-2 .container .col-6 .text2 #umur:hover {
+  opacity: 1;
+  font-size: 1.4rem;
+}
+.page-2 .container .col-6 .text2 #pendidikan {
+  text-align: start;
+  color: white;
+  opacity: 0.1;
+}
+.page-2 .container .col-6 .text2 #pendidikan:hover {
+  opacity: 1;
+  font-size: 1.4rem;
+}
+.page-2 .container .col-6 .text2 #negara {
+  text-align: start;
+  color: white;
+  opacity: 0.1;
+}
+.page-2 .container .col-6 .text2 #negara:hover {
+  opacity: 1;
+  font-size: 1.4rem;
+}
+.page-2 .container .col-6 .text2 #bahasa {
+  text-align: start;
+  color: white;
+  opacity: 0.1;
+}
+.page-2 .container .col-6 .text2 #bahasa:hover {
+  opacity: 1;
+  font-size: 1.4rem;
+}
+
+.page-3 {
+  padding-top: 10rem;
+}
+.page-3 h1 {
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 0;
+  text-align: center;
+  font-weight: 600;
+}
+.page-3 h1 span {
+  color: #656565;
+}
+.page-3 hr {
+  width: 27rem;
+  margin: auto;
+  color: white;
+}
+.page-3 p {
+  text-align: center;
+  font-size: 1.2rem;
+  width: 470px;
+  color: white;
+  margin: auto;
+  padding-top: 1.5rem;
+}
+
+.page-4 {
+  padding-top: 8rem;
+}
+.page-4 .text4 h1 {
+  margin: auto;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.page-4 .text4 h1 span {
+  color: #656565;
+}
+.page-4 .text4 hr {
+  color: white;
+  width: 23rem;
+  margin: auto;
+}
+.page-4 .text4 p {
+  color: white;
+  width: 390px;
+  text-align: center;
+  margin: auto;
+  padding-top: 0.8rem;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=style.css.map */
