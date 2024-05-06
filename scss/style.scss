@@ -8,11 +8,11 @@ $text-color: #ffff;
   font-family: cltv;
   font-style: normal;
   font-weight: 400;
-  src: url(/font/coolvetica.woff2) format("woff2"),
-    url(/font/coolvetica.woff) format("woff");
+  src: url(font/coolvetica.woff2) format("woff2"),
+    url(font/coolvetica.woff) format("woff");
 }
 
-* {
+body {
   background-color: $primary-color;
   scroll-behavior: smooth;
   font-family: "poppins", sans-serif;
