@@ -242,142 +242,183 @@ nav {
       font-size: 1.2rem;
     }
   }
+}
 
-  .text5 {
-    .row {
-      padding-top: 3rem;
+.text5 {
+  .row {
+    padding-top: 3rem;
 
-      .col-6 {
-        .tk {
-          align-items: start;
+    .col-6 {
+      .tk {
+        align-items: start;
 
-          @mixin pendidikan($fz) {
-            text-align: end;
-            color: $text-color;
-            font-family: "bebas";
-            font-weight: 600;
-            font-size: $fz;
-          }
-
-          #tingkat {
-            @include pendidikan(3.2rem);
-            margin-bottom: -42px;
-          }
-
-          #tahun {
-            @include pendidikan(4rem);
-            margin-bottom: -33px;
-          }
-
-          #sekolah {
-            @include pendidikan(1.75rem);
-          }
-
-          opacity: 0.1;
-
-          &:hover {
-            opacity: 1;
-          }
+        @mixin pendidikan($fz) {
+          text-align: end;
+          color: $text-color;
+          font-family: "bebas";
+          font-weight: 600;
+          font-size: $fz;
         }
 
-        .sd {
-          padding-top: 5rem;
+        #tingkat {
+          @include pendidikan(3.2rem);
+          margin-bottom: -42px;
+        }
 
-          @mixin pendidikan($fz) {
-            text-align: end;
-            color: $text-color;
-            font-family: "bebas";
-            font-weight: 600;
-            font-size: $fz;
-          }
+        #tahun {
+          @include pendidikan(4rem);
+          margin-bottom: -33px;
+        }
 
-          #tingkat {
-            @include pendidikan(3.2rem);
-            margin-bottom: -42px;
-          }
+        #sekolah {
+          @include pendidikan(1.75rem);
+        }
 
-          #tahun {
-            @include pendidikan(4rem);
-            margin-bottom: -33px;
-          }
+        opacity: 0.1;
 
-          #sekolah {
-            @include pendidikan(1.75rem);
-          }
-
-          opacity: 0.1;
-
-          &:hover {
-            opacity: 1;
-          }
+        &:hover {
+          opacity: 1;
         }
       }
 
-      .col-6 {
-        .mts {
-          align-items: start;
+      .sd {
+        padding-top: 5rem;
 
-          @mixin pendidikan($fz) {
-            text-align: start;
-            color: $text-color;
-            font-family: "bebas";
-            font-weight: 600;
-            font-size: $fz;
-          }
-
-          #tingkat {
-            @include pendidikan(3.2rem);
-            margin-bottom: -42px;
-          }
-
-          #tahun {
-            @include pendidikan(4rem);
-            margin-bottom: -33px;
-          }
-
-          #sekolah {
-            @include pendidikan(1.75rem);
-          }
-
-          opacity: 0.1;
-
-          &:hover {
-            opacity: 1;
-          }
+        @mixin pendidikan($fz) {
+          text-align: end;
+          color: $text-color;
+          font-family: "bebas";
+          font-weight: 600;
+          font-size: $fz;
         }
 
-        .smk {
-          padding-top: 5rem;
+        #tingkat {
+          @include pendidikan(3.2rem);
+          margin-bottom: -42px;
+        }
 
-          @mixin pendidikan($fz) {
-            text-align: start;
-            color: $text-color;
-            font-family: "bebas";
-            font-weight: 600;
-            font-size: $fz;
-          }
+        #tahun {
+          @include pendidikan(4rem);
+          margin-bottom: -33px;
+        }
 
-          #tingkat {
-            @include pendidikan(3.2rem);
-            margin-bottom: -42px;
-          }
+        #sekolah {
+          @include pendidikan(1.75rem);
+        }
 
-          #tahun {
-            @include pendidikan(4rem);
-            margin-bottom: -33px;
-          }
+        opacity: 0.1;
 
-          #sekolah {
-            @include pendidikan(1.75rem);
-          }
-
-          opacity: 0.1;
-
-          &:hover {
-            opacity: 1;
-          }
+        &:hover {
+          opacity: 1;
         }
       }
+    }
+
+    .col-6 {
+      .mts {
+        align-items: start;
+
+        @mixin pendidikan($fz) {
+          text-align: start;
+          color: $text-color;
+          font-family: "bebas";
+          font-weight: 600;
+          font-size: $fz;
+        }
+
+        #tingkat {
+          @include pendidikan(3.2rem);
+          margin-bottom: -42px;
+        }
+
+        #tahun {
+          @include pendidikan(4rem);
+          margin-bottom: -33px;
+        }
+
+        #sekolah {
+          @include pendidikan(1.75rem);
+        }
+
+        opacity: 0.1;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+
+      .smk {
+        padding-top: 5rem;
+
+        @mixin pendidikan($fz) {
+          text-align: start;
+          color: $text-color;
+          font-family: "bebas";
+          font-weight: 600;
+          font-size: $fz;
+        }
+
+        #tingkat {
+          @include pendidikan(3.2rem);
+          margin-bottom: -42px;
+        }
+
+        #tahun {
+          @include pendidikan(4rem);
+          margin-bottom: -33px;
+        }
+
+        #sekolah {
+          @include pendidikan(1.75rem);
+        }
+
+        opacity: 0.1;
+
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+
+.page-6 {
+  .text7 {
+    padding-top: 8rem;
+    margin-bottom: 5.5rem;
+    h1 {
+      margin: auto;
+      color: $text-color;
+      font-weight: 600;
+      text-align: center;
+
+      span {
+        color: $secondary-color;
+      }
+    }
+
+    hr {
+      color: $text-color;
+      width: 23rem;
+      margin: auto;
+    }
+
+    p {
+      color: $text-color;
+      width: 390px;
+      text-align: center;
+      margin: auto;
+      padding-top: 0.8rem;
+      font-size: 1.2rem;
+    }
+  }
+
+  .col-7{
+    .row{
+      margin-left: 15rem;
+    }
+    .kolom1{
+      margin-left: 15.78rem;
     }
   }
 }

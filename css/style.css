@@ -189,14 +189,15 @@ nav a {
   padding-top: 0.8rem;
   font-size: 1.2rem;
 }
-.page-4 .text5 .row {
+
+.text5 .row {
   padding-top: 3rem;
 }
-.page-4 .text5 .row .col-6 .tk {
+.text5 .row .col-6 .tk {
   align-items: start;
   opacity: 0.1;
 }
-.page-4 .text5 .row .col-6 .tk #tingkat {
+.text5 .row .col-6 .tk #tingkat {
   text-align: end;
   color: white;
   font-family: "bebas";
@@ -204,7 +205,7 @@ nav a {
   font-size: 3.2rem;
   margin-bottom: -42px;
 }
-.page-4 .text5 .row .col-6 .tk #tahun {
+.text5 .row .col-6 .tk #tahun {
   text-align: end;
   color: white;
   font-family: "bebas";
@@ -212,21 +213,21 @@ nav a {
   font-size: 4rem;
   margin-bottom: -33px;
 }
-.page-4 .text5 .row .col-6 .tk #sekolah {
+.text5 .row .col-6 .tk #sekolah {
   text-align: end;
   color: white;
   font-family: "bebas";
   font-weight: 600;
   font-size: 1.75rem;
 }
-.page-4 .text5 .row .col-6 .tk:hover {
+.text5 .row .col-6 .tk:hover {
   opacity: 1;
 }
-.page-4 .text5 .row .col-6 .sd {
+.text5 .row .col-6 .sd {
   padding-top: 5rem;
   opacity: 0.1;
 }
-.page-4 .text5 .row .col-6 .sd #tingkat {
+.text5 .row .col-6 .sd #tingkat {
   text-align: end;
   color: white;
   font-family: "bebas";
@@ -234,7 +235,7 @@ nav a {
   font-size: 3.2rem;
   margin-bottom: -42px;
 }
-.page-4 .text5 .row .col-6 .sd #tahun {
+.text5 .row .col-6 .sd #tahun {
   text-align: end;
   color: white;
   font-family: "bebas";
@@ -242,21 +243,21 @@ nav a {
   font-size: 4rem;
   margin-bottom: -33px;
 }
-.page-4 .text5 .row .col-6 .sd #sekolah {
+.text5 .row .col-6 .sd #sekolah {
   text-align: end;
   color: white;
   font-family: "bebas";
   font-weight: 600;
   font-size: 1.75rem;
 }
-.page-4 .text5 .row .col-6 .sd:hover {
+.text5 .row .col-6 .sd:hover {
   opacity: 1;
 }
-.page-4 .text5 .row .col-6 .mts {
+.text5 .row .col-6 .mts {
   align-items: start;
   opacity: 0.1;
 }
-.page-4 .text5 .row .col-6 .mts #tingkat {
+.text5 .row .col-6 .mts #tingkat {
   text-align: start;
   color: white;
   font-family: "bebas";
@@ -264,7 +265,7 @@ nav a {
   font-size: 3.2rem;
   margin-bottom: -42px;
 }
-.page-4 .text5 .row .col-6 .mts #tahun {
+.text5 .row .col-6 .mts #tahun {
   text-align: start;
   color: white;
   font-family: "bebas";
@@ -272,21 +273,21 @@ nav a {
   font-size: 4rem;
   margin-bottom: -33px;
 }
-.page-4 .text5 .row .col-6 .mts #sekolah {
+.text5 .row .col-6 .mts #sekolah {
   text-align: start;
   color: white;
   font-family: "bebas";
   font-weight: 600;
   font-size: 1.75rem;
 }
-.page-4 .text5 .row .col-6 .mts:hover {
+.text5 .row .col-6 .mts:hover {
   opacity: 1;
 }
-.page-4 .text5 .row .col-6 .smk {
+.text5 .row .col-6 .smk {
   padding-top: 5rem;
   opacity: 0.1;
 }
-.page-4 .text5 .row .col-6 .smk #tingkat {
+.text5 .row .col-6 .smk #tingkat {
   text-align: start;
   color: white;
   font-family: "bebas";
@@ -294,7 +295,7 @@ nav a {
   font-size: 3.2rem;
   margin-bottom: -42px;
 }
-.page-4 .text5 .row .col-6 .smk #tahun {
+.text5 .row .col-6 .smk #tahun {
   text-align: start;
   color: white;
   font-family: "bebas";
@@ -302,13 +303,46 @@ nav a {
   font-size: 4rem;
   margin-bottom: -33px;
 }
-.page-4 .text5 .row .col-6 .smk #sekolah {
+.text5 .row .col-6 .smk #sekolah {
   text-align: start;
   color: white;
   font-family: "bebas";
   font-weight: 600;
   font-size: 1.75rem;
 }
-.page-4 .text5 .row .col-6 .smk:hover {
+.text5 .row .col-6 .smk:hover {
   opacity: 1;
+}
+
+.page-6 .text7 {
+  padding-top: 8rem;
+  margin-bottom: 5.5rem;
+}
+.page-6 .text7 h1 {
+  margin: auto;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.page-6 .text7 h1 span {
+  color: #656565;
+}
+.page-6 .text7 hr {
+  color: white;
+  width: 23rem;
+  margin: auto;
+}
+.page-6 .text7 p {
+  color: white;
+  width: 390px;
+  text-align: center;
+  margin: auto;
+  padding-top: 0.8rem;
+  font-size: 1.2rem;
+}
+.page-6 .col-7 .row {
+  margin-left: 15rem;
+}
+.page-6 .col-7 .kolom1 {
+  margin-left: 15.78rem;
 }/*# sourceMappingURL=style.css.map */
