@@ -12,9 +12,19 @@ $text-color: #ffff;
     url(font/coolvetica.woff) format("woff");
 }
 
+@font-face {
+  font-display: swap;
+  font-family: bebas;
+  font-style: normal;
+  font-weight: 400;
+  src: url(font/bebasneue.woff2) format("woff2"),
+    url(font/bebasneue.woff) format("woff");
+}
+
 body {
   background-color: $primary-color;
   scroll-behavior: smooth;
+  height: 2000vh;
   font-family: "poppins", sans-serif;
 }
 
@@ -183,28 +193,84 @@ nav {
 
 .page-4 {
   padding-top: 8rem;
-  .text4{
-    h1{
+  .text4 {
+    h1 {
       margin: auto;
       color: $text-color;
       font-weight: 600;
       text-align: center;
-      span{
+      span {
         color: $secondary-color;
       }
     }
-    hr{
+    hr {
       color: $text-color;
       width: 23rem;
       margin: auto;
     }
-    p{
+    p {
       color: $text-color;
       width: 390px;
       text-align: center;
       margin: auto;
       padding-top: 0.8rem;
       font-size: 1.2rem;
+    }
+  }
+
+  .text5 {
+    .row {
+      .col-6 {
+        .tk {
+          align-items: start;
+          @mixin pendidikan($fz) {
+            text-align: start;
+            color: $text-color;
+            font-family: "bebas";
+            font-weight: 600;
+            font-size: $fz;
+          }
+          #tingkat {
+            @include pendidikan(3.2rem);
+            margin-bottom: -42px;
+          }
+          #tahun {
+            @include pendidikan(4rem);
+            margin-bottom: -33px;
+          }
+          #sekolah {
+            @include pendidikan(1.75rem);
+          }
+          opacity: 0.1;
+          &:hover {
+            opacity: 1;
+          }
+        }
+        .sd{
+          @mixin pendidikan($fz) {
+            text-align: start;
+            color: $text-color;
+            font-family: "bebas";
+            font-weight: 600;
+            font-size: $fz;
+          }
+          #tingkat {
+            @include pendidikan(3.2rem);
+            margin-bottom: -42px;
+          }
+          #tahun {
+            @include pendidikan(4rem);
+            margin-bottom: -33px;
+          }
+          #sekolah {
+            @include pendidikan(1.75rem);
+          }
+          opacity: 0.1;
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
     }
   }
 }
