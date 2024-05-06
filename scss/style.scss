@@ -12,10 +12,9 @@ $text-color: #ffff;
     url(/font/coolvetica.woff) format("woff");
 }
 
-body {
+* {
   background-color: $primary-color;
   scroll-behavior: smooth;
-  height: 2000px;
   font-family: "poppins", sans-serif;
 }
 
@@ -67,7 +66,7 @@ nav {
 .page-2 {
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background-image: url(/asset/background.png);
+  background-image: url(asset/background.png);
   background-size: 26rem;
   background-repeat: no-repeat;
 
