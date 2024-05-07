@@ -341,8 +341,11 @@ nav a {
   font-size: 1.2rem;
 }
 .page-6 .col-7 .row {
-  margin-left: 15rem;
+  margin-left: 13rem;
 }
 .page-6 .col-7 .kolom1 {
-  margin-left: 15.78rem;
+  margin-left: 13.7rem;
+}
+.page-6 .col-7 .kolom1 button .btn btn-outline-secondary {
+  margin-top: 15px;
 }/*# sourceMappingURL=style.css.map */

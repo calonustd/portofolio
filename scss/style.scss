@@ -386,6 +386,7 @@ nav {
   .text7 {
     padding-top: 8rem;
     margin-bottom: 5.5rem;
+
     h1 {
       margin: auto;
       color: $text-color;
@@ -413,12 +414,21 @@ nav {
     }
   }
 
-  .col-7{
-    .row{
-      margin-left: 15rem;
+  .col-7 {
+    .row {
+      margin-left: 13rem;
     }
-    .kolom1{
-      margin-left: 15.78rem;
+
+    .kolom1 {
+      margin-left: 13.7rem;
+      button {
+        .btn btn-outline-secondary {
+          margin-top: 15px;
+        }
+      }
+  
     }
+
+    
   }
 }
