@@ -5,26 +5,25 @@ $text-color: #ffff;
 // FONT
 @font-face {
   font-display: swap;
-  font-family: cltv;
+  font-family: 'cltv';
   font-style: normal;
   font-weight: 400;
-  src: url(font/coolvetica.woff2) format("woff2"),
-    url(font/coolvetica.woff) format("woff");
+  src: url(../font/coolvetica.woff2) format("woff2"),
+    url(../font/coolvetica.woff) format("woff");
 }
 
 @font-face {
   font-display: swap;
-  font-family: bebas;
+  font-family: 'bebas';
   font-style: normal;
   font-weight: 400;
-  src: url(font/bebasneue.woff2) format("woff2"),
-    url(font/bebasneue.woff) format("woff");
+  src: url(../font/bebasneue.woff2) format("woff2"),
+    url(../font/bebasneue.woff) format("woff");
 }
 
 body {
   background-color: $primary-color;
   scroll-behavior: smooth;
-  height: 2000vh;
   font-family: "poppins", sans-serif;
 }
 
@@ -51,7 +50,7 @@ nav {
     .col-5 {
       img {
         width: 39rem;
-        margin-top: -28px;
+        margin-top: -10px;
         margin-left: -80px;
       }
     }
@@ -79,7 +78,7 @@ nav {
 .page-2 {
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background-image: url(asset/background.png);
+  background-image: url(../asset/background.png);
   background-size: 26rem;
   background-repeat: no-repeat;
 
@@ -421,14 +420,24 @@ nav {
 
     .kolom1 {
       margin-left: 13.7rem;
+
       button {
         .btn btn-outline-secondary {
           margin-top: 15px;
         }
       }
-  
     }
 
-    
+  }
+
+  .kolom2{
+    .row{
+      .col-4{
+        background-color: $secondary-color;
+        p{
+          color: $primary-color;
+        }
+      }
+    }
   }
 }
