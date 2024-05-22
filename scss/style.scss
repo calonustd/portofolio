@@ -81,7 +81,7 @@ nav {
   background-image: url(../asset/background.png);
   background-size: 26rem;
   background-repeat: no-repeat;
-
+  mask-image: linear-gradient(to top, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0));
   .container {
     .col-6 {
       img {

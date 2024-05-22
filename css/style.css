@@ -61,6 +61,8 @@ nav a {
   background-image: url(../asset/background.png);
   background-size: 26rem;
   background-repeat: no-repeat;
+  -webkit-mask-image: linear-gradient(to top, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0));
+          mask-image: linear-gradient(to top, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0));
 }
 .page-2 .container .col-6 img {
   width: 20rem;
