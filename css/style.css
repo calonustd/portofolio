@@ -188,129 +188,160 @@ nav a {
   padding-top: 0.8rem;
   font-size: 1.2rem;
 }
-
-.text5 .row {
+.page-4 .text5 .row {
   padding-top: 3rem;
 }
-.text5 .row .col-6 .tk {
+.page-4 .text5 .row .col-6 .tk {
   align-items: start;
   opacity: 0.1;
 }
-.text5 .row .col-6 .tk #tingkat {
+.page-4 .text5 .row .col-6 .tk #tingkat {
   text-align: end;
   color: white;
-  font-family: "bebas";
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 3.2rem;
   margin-bottom: -42px;
 }
-.text5 .row .col-6 .tk #tahun {
+.page-4 .text5 .row .col-6 .tk #tahun {
   text-align: end;
   color: white;
-  font-family: "bebas";
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 4rem;
   margin-bottom: -33px;
 }
-.text5 .row .col-6 .tk #sekolah {
+.page-4 .text5 .row .col-6 .tk #sekolah {
   text-align: end;
   color: white;
-  font-family: "bebas";
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 1.75rem;
 }
-.text5 .row .col-6 .tk:hover {
+.page-4 .text5 .row .col-6 .tk:hover {
   opacity: 1;
 }
-.text5 .row .col-6 .sd {
+.page-4 .text5 .row .col-6 .sd {
   padding-top: 5rem;
   opacity: 0.1;
 }
-.text5 .row .col-6 .sd #tingkat {
+.page-4 .text5 .row .col-6 .sd #tingkat {
   text-align: end;
   color: white;
-  font-family: "bebas";
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 3.2rem;
   margin-bottom: -42px;
 }
-.text5 .row .col-6 .sd #tahun {
+.page-4 .text5 .row .col-6 .sd #tahun {
   text-align: end;
   color: white;
-  font-family: "bebas";
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 4rem;
   margin-bottom: -33px;
 }
-.text5 .row .col-6 .sd #sekolah {
+.page-4 .text5 .row .col-6 .sd #sekolah {
   text-align: end;
   color: white;
-  font-family: "bebas";
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 1.75rem;
 }
-.text5 .row .col-6 .sd:hover {
+.page-4 .text5 .row .col-6 .sd:hover {
   opacity: 1;
 }
-.text5 .row .col-6 .mts {
+.page-4 .text5 .row .col-6 .mts {
   align-items: start;
   opacity: 0.1;
 }
-.text5 .row .col-6 .mts #tingkat {
+.page-4 .text5 .row .col-6 .mts #tingkat {
   text-align: start;
   color: white;
-  font-family: "bebas";
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 3.2rem;
   margin-bottom: -42px;
 }
-.text5 .row .col-6 .mts #tahun {
+.page-4 .text5 .row .col-6 .mts #tahun {
   text-align: start;
   color: white;
-  font-family: "bebas";
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 4rem;
   margin-bottom: -33px;
 }
-.text5 .row .col-6 .mts #sekolah {
+.page-4 .text5 .row .col-6 .mts #sekolah {
   text-align: start;
   color: white;
-  font-family: "bebas";
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 1.75rem;
 }
-.text5 .row .col-6 .mts:hover {
+.page-4 .text5 .row .col-6 .mts:hover {
   opacity: 1;
 }
-.text5 .row .col-6 .smk {
+.page-4 .text5 .row .col-6 .smk {
   padding-top: 5rem;
   opacity: 0.1;
 }
-.text5 .row .col-6 .smk #tingkat {
+.page-4 .text5 .row .col-6 .smk #tingkat {
   text-align: start;
   color: white;
-  font-family: "bebas";
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 3.2rem;
   margin-bottom: -42px;
 }
-.text5 .row .col-6 .smk #tahun {
+.page-4 .text5 .row .col-6 .smk #tahun {
   text-align: start;
   color: white;
-  font-family: "bebas";
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 4rem;
   margin-bottom: -33px;
 }
-.text5 .row .col-6 .smk #sekolah {
+.page-4 .text5 .row .col-6 .smk #sekolah {
   text-align: start;
   color: white;
-  font-family: "bebas";
+  font-family: "poppins", sans-serif;
   font-weight: 600;
   font-size: 1.75rem;
 }
-.text5 .row .col-6 .smk:hover {
+.page-4 .text5 .row .col-6 .smk:hover {
   opacity: 1;
+}
+
+.page-5 .text6 h1 {
+  padding-top: 10rem;
+  margin: auto;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.page-5 .text6 h1 span {
+  color: #656565;
+}
+.page-5 .text6 hr {
+  color: white;
+  width: 23rem;
+  margin: auto;
+}
+.page-5 .text6 p {
+  color: white;
+  width: 390px;
+  text-align: center;
+  margin: auto;
+  padding-top: 0.8rem;
+  font-size: 1.2rem;
+}
+.page-5 .box-gambar {
+  display: flex;
+}
+.page-5 .box-gambar img {
+  width: 58rem;
+  margin: auto;
+  padding-top: 5rem;
 }
 
 .page-6 .text7 {
