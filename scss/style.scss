@@ -25,6 +25,7 @@ body {
   background-color: $primary-color;
   scroll-behavior: smooth;
   font-family: "poppins", sans-serif;
+
 }
 
 ::-webkit-scrollbar {
@@ -82,6 +83,8 @@ nav {
   background-size: 26rem;
   background-repeat: no-repeat;
   mask-image: linear-gradient(to top, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(to top, rgb(0, 0, 0) 60%, rgba(0, 0, 0, 0));
+
   .container {
     .col-6 {
       img {
@@ -210,278 +213,304 @@ nav {
     margin: auto;
     padding-top: 1.5rem;
   }
-}
 
-// PAGE 4
-.page-4 {
-  padding-top: 15rem;
+  .skill-container {
+    width: 100%;
+    background-color: $skill-bg-color;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.1);
 
-  .text4 {
-    h1 {
-      margin: auto;
-      color: $text-color;
-      font-weight: 600;
-      text-align: center;
-
-      span {
-        color: $secondary-color;
-      }
-    }
-
-    hr {
-      color: $text-color;
-      width: 23rem;
-      margin: auto;
-    }
-
-    p {
-      color: $text-color;
-      width: 390px;
-      text-align: center;
-      margin: auto;
-      padding-top: 0.8rem;
-      font-size: 1.2rem;
-    }
-  }
-
-  .text5 {
-    .row {
-      padding-top: 3rem;
-
-      .col-6 {
-        .tk {
-          align-items: start;
-
-          @mixin pendidikan($fz) {
-            text-align: end;
-            color: $text-color;
-            font-family: "poppins", sans-serif;
-            font-weight: 600;
-            font-size: $fz;
-          }
-
-          #tingkat {
-            @include pendidikan(3.2rem);
-            margin-bottom: -42px;
-          }
-
-          #tahun {
-            @include pendidikan(4rem);
-            margin-bottom: -33px;
-          }
-
-          #sekolah {
-            @include pendidikan(1.75rem);
-          }
-
-          opacity: 0.1;
-
-          &:hover {
-            opacity: 1;
-          }
-        }
-
-        .sd {
-          padding-top: 5rem;
-
-          @mixin pendidikan($fz) {
-            text-align: end;
-            color: $text-color;
-            font-family: "poppins", sans-serif;
-            font-weight: 600;
-            font-size: $fz;
-          }
-
-          #tingkat {
-            @include pendidikan(3.2rem);
-            margin-bottom: -42px;
-          }
-
-          #tahun {
-            @include pendidikan(4rem);
-            margin-bottom: -33px;
-          }
-
-          #sekolah {
-            @include pendidikan(1.75rem);
-          }
-
-          opacity: 0.1;
-
-          &:hover {
-            opacity: 1;
-          }
-        }
-      }
-
-      .col-6 {
-        .mts {
-          align-items: start;
-
-          @mixin pendidikan($fz) {
-            text-align: start;
-            color: $text-color;
-            font-family: "poppins", sans-serif;
-            font-weight: 600;
-            font-size: $fz;
-          }
-
-          #tingkat {
-            @include pendidikan(3.2rem);
-            margin-bottom: -42px;
-          }
-
-          #tahun {
-            @include pendidikan(4rem);
-            margin-bottom: -33px;
-          }
-
-          #sekolah {
-            @include pendidikan(1.75rem);
-          }
-
-          opacity: 0.1;
-
-          &:hover {
-            opacity: 1;
-          }
-        }
-
-        .smk {
-          padding-top: 5rem;
-
-          @mixin pendidikan($fz) {
-            text-align: start;
-            color: $text-color;
-            font-family: "poppins", sans-serif;
-            font-weight: 600;
-            font-size: $fz;
-          }
-
-          #tingkat {
-            @include pendidikan(3.2rem);
-            margin-bottom: -42px;
-          }
-
-          #tahun {
-            @include pendidikan(4rem);
-            margin-bottom: -33px;
-          }
-
-          #sekolah {
-            @include pendidikan(1.75rem);
-          }
-
-          opacity: 0.1;
-
-          &:hover {
-            opacity: 1;
-          }
-        }
-      }
-    }
-  }
-}
-
-// PAGE 5
-.page-5{
-  .text6{
-    h1 {
-      padding-top: 10rem;
-      margin: auto;
-      color: $text-color;
-      font-weight: 600;
-      text-align: center;
+    .skill-bar {
+      width: $skill-bar-width;
+      height: $skill-bar-height;
+      background-color: $skill-bar-color;
+      text-align: right;
+      line-height: $skill-bar-height;
+      color: $skill-text-color;
+      border-radius: 25px 0 0 25px;
+      box-shadow: 0 3px 3px -2px rgba(0, 0, 0, 0.2);
 
       span {
-        color: $secondary-color;
+        padding-right: 10px;
       }
     }
 
-    hr {
-      color: $text-color;
-      width: 23rem;
-      margin: auto;
-    }
 
-    p {
-      color: $text-color;
-      width: 390px;
-      text-align: center;
-      margin: auto;
-      padding-top: 0.8rem;
-      font-size: 1.2rem;
-    }
-  }
-  .box-gambar{
-    display: flex;
-    img{
-      width: 58rem;
-      margin: auto;
-      padding-top: 5rem;
-    }
   }
 }
+  // PAGE 4
+  .page-4 {
+    padding-top: 15rem;
 
-// PAGE 6
-.page-6 {
-  .text7 {
-    padding-top: 8rem;
-    margin-bottom: 5.5rem;
+    .text4 {
+      h1 {
+        margin: auto;
+        color: $text-color;
+        font-weight: 600;
+        text-align: center;
 
-    h1 {
-      margin: auto;
-      color: $text-color;
-      font-weight: 600;
-      text-align: center;
+        span {
+          color: $secondary-color;
+        }
+      }
 
-      span {
-        color: $secondary-color;
+      hr {
+        color: $text-color;
+        width: 23rem;
+        margin: auto;
+      }
+
+      p {
+        color: $text-color;
+        width: 390px;
+        text-align: center;
+        margin: auto;
+        padding-top: 0.8rem;
+        font-size: 1.2rem;
       }
     }
 
-    hr {
-      color: $text-color;
-      width: 23rem;
-      margin: auto;
-    }
+    .text5 {
+      .row {
+        padding-top: 3rem;
 
-    p {
-      color: $text-color;
-      width: 390px;
-      text-align: center;
-      margin: auto;
-      padding-top: 0.8rem;
-      font-size: 1.2rem;
-    }
-  }
+        .col-6 {
+          .tk {
+            align-items: start;
 
-  .col-7 {
-    .row {
-      margin-left: 13rem;
-    }
+            @mixin pendidikan($fz) {
+              text-align: end;
+              color: $text-color;
+              font-family: "poppins", sans-serif;
+              font-weight: 600;
+              font-size: $fz;
+            }
 
-    .kolom1 {
-      margin-left: 13.7rem;
+            #tingkat {
+              @include pendidikan(3.2rem);
+              margin-bottom: -42px;
+            }
 
-      button {
-        .btn btn-outline-secondary {
-          margin-top: 15px;
+            #tahun {
+              @include pendidikan(4rem);
+              margin-bottom: -33px;
+            }
+
+            #sekolah {
+              @include pendidikan(1.75rem);
+            }
+
+            opacity: 0.1;
+
+            &:hover {
+              opacity: 1;
+            }
+          }
+
+          .sd {
+            padding-top: 5rem;
+
+            @mixin pendidikan($fz) {
+              text-align: end;
+              color: $text-color;
+              font-family: "poppins", sans-serif;
+              font-weight: 600;
+              font-size: $fz;
+            }
+
+            #tingkat {
+              @include pendidikan(3.2rem);
+              margin-bottom: -42px;
+            }
+
+            #tahun {
+              @include pendidikan(4rem);
+              margin-bottom: -33px;
+            }
+
+            #sekolah {
+              @include pendidikan(1.75rem);
+            }
+
+            opacity: 0.1;
+
+            &:hover {
+              opacity: 1;
+            }
+          }
+        }
+
+        .col-6 {
+          .mts {
+            align-items: start;
+
+            @mixin pendidikan($fz) {
+              text-align: start;
+              color: $text-color;
+              font-family: "poppins", sans-serif;
+              font-weight: 600;
+              font-size: $fz;
+            }
+
+            #tingkat {
+              @include pendidikan(3.2rem);
+              margin-bottom: -42px;
+            }
+
+            #tahun {
+              @include pendidikan(4rem);
+              margin-bottom: -33px;
+            }
+
+            #sekolah {
+              @include pendidikan(1.75rem);
+            }
+
+            opacity: 0.1;
+
+            &:hover {
+              opacity: 1;
+            }
+          }
+
+          .smk {
+            padding-top: 5rem;
+
+            @mixin pendidikan($fz) {
+              text-align: start;
+              color: $text-color;
+              font-family: "poppins", sans-serif;
+              font-weight: 600;
+              font-size: $fz;
+            }
+
+            #tingkat {
+              @include pendidikan(3.2rem);
+              margin-bottom: -42px;
+            }
+
+            #tahun {
+              @include pendidikan(4rem);
+              margin-bottom: -33px;
+            }
+
+            #sekolah {
+              @include pendidikan(1.75rem);
+            }
+
+            opacity: 0.1;
+
+            &:hover {
+              opacity: 1;
+            }
+          }
         }
       }
     }
-
   }
 
-  .kolom2 {
-    .row {
-      .col-4 {
-        background-color: $secondary-color;
+  // PAGE 5
+  .page-5 {
+    .text6 {
+      h1 {
+        padding-top: 10rem;
+        margin: auto;
+        color: $text-color;
+        font-weight: 600;
+        text-align: center;
 
-        p {
-          color: $primary-color;
+        span {
+          color: $secondary-color;
+        }
+      }
+
+      hr {
+        color: $text-color;
+        width: 23rem;
+        margin: auto;
+      }
+
+      p {
+        color: $text-color;
+        width: 390px;
+        text-align: center;
+        margin: auto;
+        padding-top: 0.8rem;
+        font-size: 1.2rem;
+      }
+    }
+
+    .box-gambar {
+      display: flex;
+
+      img {
+        width: 58rem;
+        margin: auto;
+        padding-top: 5rem;
+      }
+    }
+  }
+
+  // PAGE 6
+  .page-6 {
+    .text7 {
+      padding-top: 8rem;
+      margin-bottom: 5.5rem;
+
+      h1 {
+        margin: auto;
+        color: $text-color;
+        font-weight: 600;
+        text-align: center;
+
+        span {
+          color: $secondary-color;
+        }
+      }
+
+      hr {
+        color: $text-color;
+        width: 23rem;
+        margin: auto;
+      }
+
+      p {
+        color: $text-color;
+        width: 390px;
+        text-align: center;
+        margin: auto;
+        padding-top: 0.8rem;
+        font-size: 1.2rem;
+      }
+    }
+
+    .col-7 {
+      .row {
+        margin-left: 13rem;
+      }
+
+      .kolom1 {
+        margin-left: 13.7rem;
+
+        button {
+          .btn btn-outline-secondary {
+            margin-top: 15px;
+          }
+        }
+      }
+
+    }
+
+    .kolom2 {
+      .row {
+        .col-4 {
+          background-color: $secondary-color;
+
+          p {
+            color: $primary-color;
+          }
         }
       }
     }
   }
-}
